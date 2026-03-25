@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abante SK Poblacion Nabas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #1b5e20;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 120px;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px;
+      transform: rotate(180deg);
+    }
+
+    nav {
+      background: #fbc02d;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #000;
+      padding: 0.75rem 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:focus,
+    nav a:hover {
+      background: #1b5e20;
+      color: #fff;
+      outline: 2px solid #fff;
+    }
+
+    main {
+      padding: 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h1, h2 {
+      color: #1b5e20;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1b5e20;
+      color: white;
+    }
+
+    a:focus {
+      outline: 3px dashed #ffcc00;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      border: none;
+      background: #ffcc00;
+      cursor: pointer;
+    }
+
+    button:focus {
+      outline: 3px dashed #000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Abante SK Poblacion Nabas Logo" />
+    <h1>Abante SK Poblacion Nabas</h1>
+    <p>Youth Empowerment • Community Growth</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main id="home">
+    <section style="text-align:center; padding: 2rem;">
+      <h2>Abante Kabataan!</h2>
+      <p>Empowering the youth of Poblacion Nabas through leadership, service, and action.</p>
+    </section>
+
+    <section>
+      <h2>Welcome</h2>
+      <p>Welcome to the official website of Abante SK Poblacion Nabas. We are committed to empowering the youth and building a stronger community.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Abante SK Poblacion Nabas is dedicated to leadership, service, and youth development. We organize programs that uplift our barangay and encourage active participation.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Youth Leadership Training</li>
+        <li>Community Clean-up Drives</li>
+        <li>Sports Development Programs</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Follow us on Facebook:</p>
+      <a href="https://www.facebook.com/share/1B4Zv9zgdA/" target="_blank">Visit our Facebook Page</a>
+
+      <form>
+        <br />
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea><br /><br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Abante SK Poblacion Nabas | Managed by Galindez24j</p>
+  </footer>
+</body>
+</html>
